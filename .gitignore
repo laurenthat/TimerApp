@@ -29,8 +29,17 @@ yarn-error.*
 .DS_Store
 *.pem
 
+# Logs
+*.log
+
 # local env files
 .env*.local
 
 # typescript
 *.tsbuildinfo
+
+# Build files
+android/.gradle/
+android/app/build/
+ios/Pods/
+ios/build/
